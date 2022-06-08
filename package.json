@@ -40,8 +40,10 @@
 	"dependencies": {
 		"@discordjs/builders": "^0.15.0",
 		"@discordjs/rest": "^0.5.0",
+		"diff": "^5.1.0",
 		"discord-api-types": "^0.33.5",
-		"discord.js": "^13.8.0"
+		"discord.js": "^13.8.0",
+		"sync-fetch": "^0.4.1"
 	},
 	"devDependencies": {
 		"nodemon": "^2.0.16"

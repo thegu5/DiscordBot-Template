@@ -7,10 +7,11 @@
 // Declare constants which will be used throughout the bot.
 
 const fs = require("fs");
-const { Client, Collection, Intents } = require("discord.js");
+const { Client, Collection, Intents, Channel, SystemChannelFlags } = require("discord.js");
 const { REST } = require("@discordjs/rest");
 const { Routes } = require("discord-api-types/v9");
 const { token, client_id, test_guild_id } = require("./config.json");
+const { channel } = require("diagnostics_channel");
 
 /**
  * From v13, specifying the intents is compulsory.
